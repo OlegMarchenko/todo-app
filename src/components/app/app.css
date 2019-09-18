@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../../assets/fonts/OpenSans.woff2") format("woff2"), url("../../assets/fonts/OpenSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../../assets/fonts/OpenSans-Light.woff2") format("woff2"), url("../../assets/fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+body {
+  font: 16.6666666667px "Open Sans Regular", "Arial", "Helvetica";
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #000000, #121212, #1d1d1d, #282828, #333333);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.todo-app {
+  max-width: 500px;
+  margin: 100px auto 0;
+  border: 1px solid #525252;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=app.css.map */

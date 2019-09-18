@@ -1,0 +1,73 @@
+
+// fonts
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../../assets/fonts/OpenSans.woff2') format('woff2'),
+  url('../../assets/fonts/OpenSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('../../assets/fonts/OpenSans-Light.woff2') format('woff2'),
+  url('../../assets/fonts/OpenSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+// variables
+
+// colors
+$dark-grey: #333;
+$light-grey: lighten($dark-grey, 12%);
+
+//fonts
+$fz-regular: 'Open Sans Regular';
+$fz-light: 'Open Sans Regular';
+
+// radius
+$r-5: 5px;
+
+// font-sizes
+$fz-24: 24px;
+$fz-20: 20px;
+
+// base
+
+* {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: $fz-24;
+}
+
+
+body {
+  font: $fz-20/1.2 $fz-regular, 'Arial', 'Helvetica';
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #000000, #121212, #1d1d1d, #282828, #333333);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.todo {
+  &-app {
+    max-width: 500px;
+    margin: 100px auto 0;
+    border: 1px solid $light-grey;
+    padding: 20px;
+    border-radius: $r-5;
+  }
+}
