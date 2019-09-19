@@ -1,0 +1,18 @@
+
+@import '../../variables.scss';
+
+.todo-list {
+  &-icon {
+    font-size: 16px;
+    color: #fff;
+    transition: $transition;
+  }
+  button {
+    padding: 0 10px;
+    &:hover {
+      .todo-list-icon {
+        color: $tomato;
+      }
+    }
+  }
+}

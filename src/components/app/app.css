@@ -25,6 +25,22 @@ h1 {
   font-size: 24px;
 }
 
+button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 body {
   font: 16.6666666667px "Open Sans Regular", "Arial", "Helvetica";
   margin: 0;

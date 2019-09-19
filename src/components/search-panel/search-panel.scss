@@ -1,0 +1,26 @@
+
+@import '../../variables.scss';
+
+.search-panel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  &-input {
+    flex-grow: 1;
+    height: 32px;
+    border: none;
+    margin-right: 10px;
+    background-color: transparent;
+    transition: $transition;
+    color: #fff;
+    font-size: $fz-18;
+    border-bottom: 2px solid transparent;
+    &::placeholder {
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid #fff;
+    }
+  }
+}

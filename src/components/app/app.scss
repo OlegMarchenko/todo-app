@@ -1,4 +1,6 @@
 
+@import '../../variables.scss';
+
 // fonts
 @font-face {
   font-family: 'Open Sans Regular';
@@ -16,25 +18,7 @@
   font-style: normal;
 }
 
-// variables
-
-// colors
-$dark-grey: #333;
-$light-grey: lighten($dark-grey, 12%);
-
-//fonts
-$fz-regular: 'Open Sans Regular';
-$fz-light: 'Open Sans Regular';
-
-// radius
-$r-5: 5px;
-
-// font-sizes
-$fz-24: 24px;
-$fz-20: 20px;
-
 // base
-
 * {
   box-sizing: border-box;
   &::before,
@@ -49,6 +33,22 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
   font-size: $fz-24;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 

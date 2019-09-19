@@ -1,11 +1,10 @@
 import React from 'react';
-
 import './header-app.css';
 
 const HeaderApp = () => {
   return (
       <header className="header-app">
-          <h1>Create ToDo App</h1>
+          <h1>ToDo List</h1>
       </header>
   );
 };

@@ -1,0 +1,25 @@
+.search-panel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.search-panel-input {
+  flex-grow: 1;
+  height: 32px;
+  border: none;
+  margin-right: 10px;
+  background-color: transparent;
+  transition: 0.2s all;
+  color: #fff;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+.search-panel-input::placeholder {
+  color: #fff;
+}
+.search-panel-input:focus {
+  outline: none;
+  border-bottom: 2px solid #fff;
+}
+
+/*# sourceMappingURL=search-panel.css.map */
