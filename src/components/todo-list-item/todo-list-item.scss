@@ -1,3 +1,37 @@
-
 @import '../../variables.scss';
 
+.todo-list {
+  button {
+    padding: 0 10px;
+  }
+  &-label {
+    cursor: pointer;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    &.done {
+      text-decoration: line-through;
+      .todo-list-label {
+        pointer-events: none;
+      }
+    }
+    &.important {
+      color: $tomato;
+    }
+  }
+  &-icon {
+    font-size: 16px;
+    transition: $transition;
+    &.fa-minus-square {
+      color: $tomato;
+    }
+    &.fa-exclamation {
+      color: $primary;
+    }
+  }
+}

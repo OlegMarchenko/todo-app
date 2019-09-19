@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e45a857-7e85-4e7b-a0ac-b309b4bc8292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header-app/header-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-app/header-app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header-app/header-app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-app/header-app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header-app/header-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-app/header-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header-app/header-app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-app/header-app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
@@ -82,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568830883517</updated>
       <workItem from="1568830887521" duration="7989000" />
-      <workItem from="1568874091768" duration="18249000" />
+      <workItem from="1568874091768" duration="25503000" />
     </task>
     <servers />
   </component>

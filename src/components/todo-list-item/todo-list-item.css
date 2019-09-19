@@ -1,3 +1,35 @@
-
+.todo-list button {
+  padding: 0 10px;
+}
+.todo-list-label {
+  cursor: pointer;
+}
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.todo-list-item.done {
+  text-decoration: line-through;
+}
+.todo-list-item.done .todo-list-label {
+  pointer-events: none;
+}
+.todo-list-item.important {
+  color: tomato;
+}
+.todo-list-icon {
+  font-size: 16px;
+  transition: 0.2s all;
+}
+.todo-list-icon.fa-minus-square {
+  color: tomato;
+}
+.todo-list-icon.fa-exclamation {
+  color: #30d5c8;
+}
 
 /*# sourceMappingURL=todo-list-item.css.map */
