@@ -15,9 +15,6 @@
 .todo-list-item.done {
   text-decoration: line-through;
 }
-.todo-list-item.done .todo-list-label {
-  pointer-events: none;
-}
 .todo-list-item.important {
   color: tomato;
 }

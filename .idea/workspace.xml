@@ -7,15 +7,6 @@
       <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-nav/todo-list-nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568830883517</updated>
       <workItem from="1568830887521" duration="7989000" />
-      <workItem from="1568874091768" duration="25503000" />
+      <workItem from="1568874091768" duration="26900000" />
     </task>
     <servers />
   </component>
