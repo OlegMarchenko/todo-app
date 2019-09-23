@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './header-app.css';
 
-const HeaderApp = () => {
-  return (
-      <header className="header-app">
-          <h1>ToDo List</h1>
-      </header>
-  );
-};
+export default class HeaderApp extends Component {
 
-export default HeaderApp;
+    render() {
+
+        const {todo, done} = this.props;
+
+        return (
+            <header className="header-app">
+                <h1>ToDo List</h1>
+                <p>{todo} more to do, {done} done</p>
+            </header>
+        );
+    }
+};
