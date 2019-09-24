@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"item-add-form.css"}
+{"version":3,"sourceRoot":"","sources":["item-add-form.scss","../../variables.scss"],"names":[],"mappings":"AAGA;EACE;;AACA;EACE;EACA;EACA;EACA;EACA;EACA,WCUI;EDTJ;EACA;;AACA;EACE;;AAEF;EACE;;AAGJ;EACE,WCDI;EDEJ;EACA","file":"item-add-form.css"}

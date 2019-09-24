@@ -1,0 +1,27 @@
+
+@import '../../variables.scss';
+
+.item-add-form {
+  display: flex;
+  > input {
+    height: 32px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: $fz-18;
+    flex-grow: 1;
+    margin-right: 15px;
+    &::placeholder {
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  > button {
+    font-size: $fz-18;
+    border-bottom: 2px solid $primary;
+    padding: 0 10px;
+  }
+}

@@ -1,3 +1,26 @@
-
+.item-add-form {
+  display: flex;
+}
+.item-add-form > input {
+  height: 32px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  flex-grow: 1;
+  margin-right: 15px;
+}
+.item-add-form > input::placeholder {
+  color: #fff;
+}
+.item-add-form > input:focus {
+  outline: none;
+}
+.item-add-form > button {
+  font-size: 18px;
+  border-bottom: 2px solid #30d5c8;
+  padding: 0 10px;
+}
 
 /*# sourceMappingURL=item-add-form.css.map */

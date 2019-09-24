@@ -16,7 +16,8 @@ export default class App extends Component {
             this.createTodoItem('Drink Coffee'),
             this.createTodoItem('Learn React With Redux'),
             this.createTodoItem('Have A Lunch')
-        ]
+        ],
+        term: ''
     };
 
     createTodoItem(label) {
@@ -92,9 +93,26 @@ export default class App extends Component {
         });
     };
 
+    onSearchChange = (term) => {
+        this.setState({term});
+    };
+
+    search(items, term) {
+        if (term.length === 0) {
+            return items;
+        }
+        return items.filter((item) => {
+            return item.label
+                .toLowerCase()
+                .indexOf(term.toLowerCase()) > -1;
+        });
+    }
+
     render() {
 
-        const {todoData} = this.state;
+        const {todoData, term} = this.state;
+
+        const visibleItems = this.search(todoData, term);
 
         const doneCount = todoData.filter((el) => el.done).length;
 
@@ -103,9 +121,10 @@ export default class App extends Component {
         return (
             <div className="todo-app">
                 <HeaderApp todo={todoCount} done={doneCount}/>
-                <SearchPanel/>
+                <SearchPanel
+                    onSearchChange={this.onSearchChange}/>
                 <TodoList
-                    todos={todoData}
+                    todos={visibleItems}
                     onDeleted={this.deleteItem}
                     onToggleImportant={this.onToggleImportant}
                     onToggleDone={this.onToggleDone}/>
