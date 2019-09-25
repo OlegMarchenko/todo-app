@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e45a857-7e85-4e7b-a0ac-b309b4bc8292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel/search-panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel/search-panel.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel/search-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +68,7 @@
       <updated>1568830883517</updated>
       <workItem from="1568830887521" duration="7989000" />
       <workItem from="1568874091768" duration="45502000" />
-      <workItem from="1569238299369" duration="41074000" />
+      <workItem from="1569238299369" duration="41499000" />
     </task>
     <servers />
   </component>
