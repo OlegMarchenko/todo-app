@@ -6,6 +6,7 @@ import HeaderApp from "../header-app";
 import TodoList from "../todo-list/todo-list";
 import SearchPanel from "../search-panel";
 import ItemAddForm from "../item-add-form";
+import ItemStatusFilter from "../item-status-filter";
 
 export default class App extends Component {
 
@@ -17,7 +18,8 @@ export default class App extends Component {
             this.createTodoItem('Learn React With Redux'),
             this.createTodoItem('Have A Lunch')
         ],
-        term: ''
+        term: '',
+        filter: 'all' // all, active, done
     };
 
     createTodoItem(label) {
@@ -97,6 +99,10 @@ export default class App extends Component {
         this.setState({term});
     };
 
+    onFilterChange = (filter) => {
+        this.setState({filter});
+    };
+
     search(items, term) {
         if (term.length === 0) {
             return items;
@@ -108,11 +114,24 @@ export default class App extends Component {
         });
     }
 
+    filter(items, filter) {
+        switch (filter) {
+            case 'all':
+                return items;
+            case 'active':
+                return items.filter((item) => !item.done);
+            case 'done':
+                return items.filter((item) => item.done);
+            default:
+                return items;
+        }
+    }
+
     render() {
 
-        const {todoData, term} = this.state;
+        const {todoData, term, filter} = this.state;
 
-        const visibleItems = this.search(todoData, term);
+        const visibleItems = this.filter(this.search(todoData, term), filter);
 
         const doneCount = todoData.filter((el) => el.done).length;
 
@@ -121,8 +140,14 @@ export default class App extends Component {
         return (
             <div className="todo-app">
                 <HeaderApp todo={todoCount} done={doneCount}/>
-                <SearchPanel
-                    onSearchChange={this.onSearchChange}/>
+                <div className="todo-app-top">
+                    <SearchPanel
+                        onSearchChange={this.onSearchChange}/>
+                    <ItemStatusFilter
+                        filter={filter}
+                        onFilterChange={this.onFilterChange}/>
+                </div>
+
                 <TodoList
                     todos={visibleItems}
                     onDeleted={this.deleteItem}

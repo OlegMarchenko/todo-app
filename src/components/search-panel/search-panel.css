@@ -1,13 +1,11 @@
 .search-panel {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
+  flex-grow: 1;
+  margin-right: 10px;
 }
 .search-panel-input {
-  flex-grow: 1;
   height: 32px;
+  width: 100%;
   border: none;
-  margin-right: 10px;
   background-color: transparent;
   transition: 0.2s all;
   color: #fff;

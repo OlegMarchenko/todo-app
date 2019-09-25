@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ItemStatusFilter from "../item-status-filter";
 import './search-panel.css';
 
 
@@ -23,7 +22,6 @@ export default class SearchPanel extends Component {
                        placeholder="search..."
                        value={this.state.term}
                        onChange={this.onSearchChange}/>
-                <ItemStatusFilter/>
             </div>
         );
     }

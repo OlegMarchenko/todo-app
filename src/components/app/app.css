@@ -59,5 +59,10 @@ body {
   padding: 20px;
   border-radius: 5px;
 }
+.todo-app-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
 
 /*# sourceMappingURL=app.css.map */
