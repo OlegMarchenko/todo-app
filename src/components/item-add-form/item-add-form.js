@@ -5,12 +5,17 @@ export default class ItemAddForm extends Component {
 
     render() {
 
+        const {onItemAdded} = this.props;
+
         return (
-            <form className="item-add-form">
+            <div className="item-add-form">
                 <input type="text"
                        placeholder="ToDo name"/>
-                <button>Add Item</button>
-            </form>
+                <button
+                onClick={() => onItemAdded('Hello world!')}>
+                    Add Item
+                </button>
+            </div>
         );
     }
 }

@@ -1,0 +1,10 @@
+
+
+<App>               <-- todoData
+    <HeaderApp>     <-- totalTodo, totalDone
+    <SearchPanel>
+    <ItemStatusFilter>
+    <TodoList>
+        <TodoListItem>  <-- done, important
+        <TodoListItem>
+    <ItemAddForm>
