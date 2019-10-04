@@ -14,11 +14,20 @@ export default class App extends Component {
 
     state = {
         todoData: [
-            {label: 'Drink Coffee', important: false, done: false, id: 1},
-            {label: 'Learn React & Redux', important: true, done: false, id: 2},
-            {label: 'Have A Lunch', important: false, done: false, id: 3}
+            this.createTodoItem('Drink Coffee'),
+            this.createTodoItem('Learn React & Redux'),
+            this.createTodoItem('Have A Lunch')
         ]
     };
+
+    createTodoItem(label) {
+        return {
+            label,
+            important: false,
+            done: false,
+            id: this.maxId++
+        }
+    }
 
     deleteItem = (id) => {
         this.setState(({todoData}) => {
@@ -36,12 +45,7 @@ export default class App extends Component {
     };
 
     addItem = (text) => {
-        const newItem = {
-            label: text,
-            important: false,
-            done: false,
-            id: this.maxId++
-        };
+        const newItem = this.createTodoItem(text);
 
         this.setState(({todoData}) => {
             const newArr = [
@@ -54,6 +58,14 @@ export default class App extends Component {
         })
     };
 
+    onToggleDone = (id) => {
+        console.log(`Toggle Done: ${id}`);
+    };
+
+    onToggleImportant = (id) => {
+        console.log(`Toggle Important: ${id}`);
+
+    };
 
     render() {
 
@@ -61,7 +73,7 @@ export default class App extends Component {
 
         return (
             <div className="todo-app">
-                <HeaderApp todo={1} done={3} />
+                <HeaderApp todo={1} done={3}/>
                 <div className="todo-app-top">
                     <SearchPanel/>
                     <ItemStatusFilter/>
@@ -69,6 +81,8 @@ export default class App extends Component {
                 <TodoList
                     todos={todoData}
                     onDeleted={this.deleteItem}
+                    onToggleImportant={this.onToggleImportant}
+                    onToggleDone={this.onToggleDone}
                 />
                 <ItemAddForm onItemAdded={this.addItem}/>
             </div>

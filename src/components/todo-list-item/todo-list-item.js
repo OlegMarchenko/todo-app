@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faExclamation, faMinusSquare} from "@fortawesome/free-solid-svg-icons";
 
 
-const TodoListItem = ({ label, important, done, onDeleted }) => {
+const TodoListItem = ({ label, important, done, onToggleDone, onToggleImportant }) => {
 
     let classNames = 'todo-list-item';
 
@@ -24,10 +24,14 @@ const TodoListItem = ({ label, important, done, onDeleted }) => {
                 { label }
             </span>
             <div className="todo-list-nav">
-                <button onClick={onDeleted}>
+                <button
+                    onClick={onToggleDone}
+                >
                     <FontAwesomeIcon icon={faMinusSquare} className="todo-list-icon" />
                 </button>
-                <button>
+                <button
+                    onClick={onToggleImportant}
+                >
                     <FontAwesomeIcon icon={faExclamation} className="todo-list-icon" />
                 </button>
             </div>
